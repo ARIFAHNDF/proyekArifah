@@ -1,0 +1,98 @@
+body {
+    background: #eee;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    width: 1100px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+#wrapper header {
+    background: #6699cc; /* Biru Soft */
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+}
+#wrapper header hgroup {
+    float: left;
+    color: #fff;
+}
+#wrapper header nav {
+    float: right;
+    margin-top: 50px;
+}
+#wrapper header nav ul {
+    padding: 0;
+    margin: 0;
+}
+#wrapper header nav ul li {
+    float: left;
+    list-style: none;
+}
+#wrapper header nav ul li a {
+    background-color: #6699cc; /* Biru Soft */
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#wrapper header nav ul li a:hover {
+    background-color: #557a99; /* Biru Soft yang Lebih Gelap */
+}
+.clear {
+    clear: both;
+}
+footer {
+    background: #557a99; /* Biru Soft yang Lebih Gelap */
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+section h1 {
+    color: #6699cc; /* Biru Soft */
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+input[type="text"]:focus {
+    border-color: #6699cc; /* Biru Soft */
+    outline: none;
+}
+input[type="submit"] {
+    background-color: #6699cc; /* Biru Soft */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #557a99; /* Biru Soft yang Lebih Gelap */
+}
